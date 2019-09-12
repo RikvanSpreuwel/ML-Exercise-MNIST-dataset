@@ -6,19 +6,19 @@ Fashion-MNIST (https://github.com/zalandoresearch/fashion-mnist) is a dataset of
 
 Part 1 Modelling, PCA and evaluation
 
-Load the dataset and split into a training set and test set. and split it into a training set and a test set.
-Train a Random Forest classifier on the dataset and time how long it takes, then evaluate the resulting model on the test set.
-Next, use PCA to reduce the dataset's dimensionality (with an explained variance ratio of 95%).
-Train a new Random Forest classifier on the reduced dataset and measure how long it takes.
-Was training much faster?
-Evaluate the classifier on the test set: how does it compare to the previous classifier?
-Apply softmax regression (using the original dataset) and time how long it takes, then evaluate the resulting model on the test set.
-Apply softmax regression (using the reduced dataset) and time how long it takes, then evaluate the resulting model on the test set.
-What can you conclude from the results?
+1. Load the dataset and split into a training set and test set. 
+2. Train a Random Forest classifier on the dataset and time how long it takes, then evaluate the resulting model on the test set.
+3. Next, use PCA to reduce the dataset's dimensionality (with an explained variance ratio of 95%).
+4. Train a new Random Forest classifier on the reduced dataset and measure how long it takes.
+5. Was training much faster?
+6. Evaluate the classifier on the test set: how does it compare to the previous classifier?
+7. Apply softmax regression (using the original dataset) and time how long it takes, then evaluate the resulting model on the test set.
+8. Apply softmax regression (using the reduced dataset) and time how long it takes, then evaluate the resulting model on the test set.
+9. What can you conclude from the results?
 
 Part 2. Visualisation
 
-Use t-SNE to reduce the MNIST dataset down to two dimensions and plot the result using Matplotlib. Use dimensionality on a random subset of 12,500 images.
-Plot a scatterplot using different colours for each class.
-What can you conclude?
-Now try t-SNE for a combination of 3 labels: sneaker, bag and t-shirt
+1. Use t-SNE to reduce the MNIST dataset down to two dimensions and plot the result using Matplotlib. Use dimensionality on a random subset of 12,500 images.
+2. Plot a scatterplot using different colours for each class.
+3. What can you conclude?
+4. Now try t-SNE for a combination of 3 labels: sneaker, bag and t-shirt
