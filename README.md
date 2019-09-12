@@ -1,7 +1,7 @@
 # ML-Exercise-MNIST-dataset
 This repository is contains the result of a school assignment on the subject of Machine Learning. The assignment description can be found below:
 
-Description
+# Description
 Fashion-MNIST (https://github.com/zalandoresearch/fashion-mnist) is a dataset of Zalando's article images—consisting of a training set of 60,000 examples and a test set of 10,000 examples. Each example is a 28x28 grayscale image, associated with a label from 10 classes. 
 
 Part 1 Modelling, PCA and evaluation
@@ -15,6 +15,7 @@ Evaluate the classifier on the test set: how does it compare to the previous cla
 Apply softmax regression (using the original dataset) and time how long it takes, then evaluate the resulting model on the test set.
 Apply softmax regression (using the reduced dataset) and time how long it takes, then evaluate the resulting model on the test set.
 What can you conclude from the results?
+
 Part 2. Visualisation
 
 Use t-SNE to reduce the MNIST dataset down to two dimensions and plot the result using Matplotlib. Use dimensionality on a random subset of 12,500 images.
